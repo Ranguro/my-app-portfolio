@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/tvTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/btnSpotify"
+        android:onClick="sendMessage"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignRight="@+id/btnScores"
+        android:layout_alignEnd="@+id/btnScores"
+        android:layout_alignLeft="@+id/btnScores"
+        android:layout_alignStart="@+id/btnScores"
+        android:textColor="#ffffff"
+        android:background="#00908f" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:id="@+id/btnScores"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/btnSpotify"
+        android:layout_alignLeft="@+id/tvTitle"
+        android:layout_alignStart="@+id/tvTitle"
+        android:layout_alignRight="@+id/tvTitle"
+        android:layout_alignEnd="@+id/tvTitle"
+        android:textColor="#ffffff"
+        android:background="#00908F"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/btnLibrary"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/btnScores"
+        android:layout_alignRight="@+id/btnScores"
+        android:layout_alignEnd="@+id/btnScores"
+        android:layout_alignLeft="@+id/btnScores"
+        android:layout_alignStart="@+id/btnScores"
+        android:textColor="#ffffff"
+        android:background="#00908F"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/btnBigger"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/btnLibrary"
+        android:layout_alignRight="@+id/btnLibrary"
+        android:layout_alignEnd="@+id/btnLibrary"
+        android:layout_alignLeft="@+id/btnLibrary"
+        android:layout_alignStart="@+id/btnLibrary"
+        android:textColor="#ffffff"
+        android:background="#00908F"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/btnReader"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/btnBigger"
+        android:layout_alignRight="@+id/btnBigger"
+        android:layout_alignEnd="@+id/btnBigger"
+        android:layout_alignLeft="@+id/btnBigger"
+        android:layout_alignStart="@+id/btnBigger"
+        android:textColor="#ffffff"
+        android:background="#00908F"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone: My Own App"
+        android:id="@+id/btnCapstone"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/btnReader"
+        android:layout_alignRight="@+id/btnReader"
+        android:layout_alignEnd="@+id/btnReader"
+        android:layout_alignLeft="@+id/btnReader"
+        android:layout_alignStart="@+id/btnReader"
+        android:textColor="#ffffffff"
+        android:background="#52E421"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
